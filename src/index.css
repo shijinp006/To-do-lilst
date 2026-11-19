@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  --color-brand: #0f6e5c;
+  --color-brand-soft: #e1f1ec;
+  --color-done: #1d7a46;
+  --color-done-soft: #e3f4e9;
+  --color-pend: #a35a0b;
+  --color-pend-soft: #fbefdf;
+  --color-both: #3d55a8;
+  --color-both-soft: #e6eafa;
+  --color-wa: #1f9d55;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f3f5f4] text-[#17201c] antialiased;
+  }
+}
